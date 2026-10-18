@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script src="script/jquery-3.6.3.min.js"></script>
+    <script src="script/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/icon/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/icon/favicon/favicon.ico" type="image/x-icon">
+    <title>VINYL TABLE K-POP</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <div class="header_top">
+                <a href="#" class="left">SEARCH</a>
+                <div class="m_left mobile">
+                    <a href="#" class="m_search">SEARCH</a>
+                    <a href="#" class="m_login">login</a>
+                </div>
+                <h1><a href="index.html">logo</a></h1>
+                <div class="right">
+                    <a href="#" class="login">LOGIN</a>
+                    <a href="#" class="cart">CART</a>
+                </div>
+                <div class="m_right mobile">
+                    <a href="#" class="m_cart mobile">cart</a>
+                    <button type="button" class="toggle mobile">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </button>
+                </div>
+               
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="sub/reservelist.html">예약LP</a>
+                    </li>
+                    <li class="korea">
+                        <a href="#">국내LP</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub/kpop.html">K-POP</a></li>
+                                <li><a href="sub/rnb.html">발라드/R&B</a></li>
+                                <li><a href="sub/k_band.html">BAND</a></li>
+                                <li><a href="sub/k_ost.html">OST</a></li>
+                            </ul>
+                            <div class="lp">
+                                <div class="txt">
+                                    <strong>백예린 10주년 기념 앨범 </strong>
+                                    <p>
+                                        백예린 데뷔 10주년을 맞이하여<br>
+                                        출시하는 4종의 LP를 만나보세요!
+                                    </p>
+                                    <a href="sub/rnb.html">자세히 보기</a>
+                                </div>
+                                <div class="image">
+                                    <img src="images/lp/main/desktop/menulp1.jpg" alt="Every letter I sent you">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="world">
+                        <a href="#">해외LP</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub/pop.html">POP</a></li>
+                                <li><a href="sub/w_band.html">BAND</a></li>
+                                <li><a href="sub/w_hiphop.html">HIPHOP</a></li>
+                                <li><a href="sub/w_ost.html">OST</a></li>
+                            </ul>
+                            <div class="lp">
+                                <div class="txt">
+                                    <strong>크리마스 기념 OST LP</strong>
+                                    <p>
+                                       다가오는 크리스마스에는 <br>
+                                       다양한OST를 들으며 보내세요!
+                                    </p>
+                                    <a href="sub/w_ost.html">자세히 보기</a>
+                                </div>
+                                <div class="image">
+                                    <img src="images/lp/main/desktop/menulp2.jpg" alt="Every letter I sent you">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="other">
+                        <a href="#">기타LP</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub/classic.html">클래식</a></li>
+                                <li><a href="sub/jazz.html">재즈</a></li>
+                                <li><a href="sub/classical.html">국악/명상</a></li>
+                            </ul>
+                            <div class="lp">
+                                <div class="txt">
+                                    <strong>따뜻한 연말을 위한 JAZZ</strong>
+                                    <p>
+                                        추운 연말을 분위기 좋은<br>
+                                        JAZZ를 들으며 따뜻하게 맞이하세요!
+                                    </p>
+                                    <a href="sub/jazz.html">자세히 보기</a>
+                                </div>
+                                <div class="image">
+                                    <img src="images/lp/main/desktop/menulp3.jpg" alt="Every letter I sent you">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="sub/acc.html">액세서리</a>
+                    </li>
+                    <li class="news">
+                        <a href="#">뉴스</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub/notice.html">공지사항</a></li>
+                                <li><a href="sub/event.html">이벤트</a></li>
+                            </ul>
+                              <div class="lp">
+                                <div class="txt">
+                                    <strong>LP도 사고 다양한 혜택까지</strong>
+                                    <p>
+                                        내가 좋아하는 LP를 구매하고<br>
+                                        다양한 혜택들이 기다리고 있습니다!
+                                    </p>
+                                    <a href="sub/event.html">자세히 보기</a>
+                                </div>
+                                <div class="image">
+                                    <img src="images/lp/main/desktop/menulp4.jpg" alt="Every letter I sent you">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="sub/cs.html">고객센터</a>
+                    </li>
+                </ul>
+                <div class="nav_bg"></div>
+            </nav>
+            <nav class="m_gnb">
+                <div class="top">
+                    <h2 class="logo">
+                        <a href="index.html">logo</a>
+                    </h2>
+                    <div class="tnb">
+                        <div class="search"><a href="sub">serach</a></div>
+                        <div class="login"><a href="#">login</a></div>
+                        <div class="cart"><a href="#">cart</a></div>
+                    </div>
+                </div>
+                <div class="mid">
+                    <ul>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">주문목록</a></li>
+                        <li><a href="sub/notice.html">공지사항</a></li>
+                        <li><a href="sub/event.html">이벤트</a></li>
+                        <li><a href="sub/cs.html">고객센터</a></li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li>
+                            <a href="sub/reservelist.html">예약LP</a>
+                        </li>
+                        <li class="korea">
+                            <a href="#">국내LP</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub/kpop.html">K-POP</a></li>
+                                    <li><a href="sub/rnb.html">발라드/R&B</a></li>
+                                    <li><a href="sub/k_band.html">BAND</a></li>
+                                    <li><a href="sub/k_ost.html">OST</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="world">
+                            <a href="#">해외LP</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub/pop.html">POP</a></li>
+                                    <li><a href="sub/w_band.html">BAND</a></li>
+                                    <li><a href="sub/w_hiphop.html">HIPHOP</a></li>
+                                    <li><a href="sub/w_ost.html">OST</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="other">
+                            <a href="#">기타LP</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub/classic.html">클래식</a></li>
+                                    <li><a href="sub/jazz.html">재즈</a></li>
+                                    <li><a href="sub/classical.html">국악/명상</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="sub/acc.html">액세서리</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_footer">
+                    <div class="top">
+                        <h3>고객센터<span>070-2222-2222</span></h3>
+                        <p><strong>월-금</strong>09:00 ~ 18:00</p>
+                        <p><strong>휴무</strong>: 주말, 공휴일</p>
+                    </div>
+                    <div class="bottom">
+                        <h3>매장<span>경기도 안산시 상록구 본오1로 111-11</span></h3>
+                
+                        <p><strong>월-금</strong>09:00 ~ 20:00</p>
+                        <p><strong>토-일</strong>09:00 ~ 18:00</p>
+                    </div>
+                    <p class="copy">
+                        COPYRIGHT Ⓒ 2022 ABCDEFGHIJK. ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="slide">
+        <div class="slide_container">
+            <div class="slide1">
+                <a href="#">
+                    <img src="images/banner/banner1.jpg" alt="10주년 LP 4종 발매 BAEK YERIN" class="desktop">
+                    <img src="images/banner/banner1_t.jpg" alt="10주년 LP 4종 발매 BAEK YERIN" class="tablet">
+                    <img src="images/banner/banner1_p.jpg" alt="10주년 LP 4종 발매 BAEK YERIN" class="mobile">
+                </a>
+            </div>
+            <div class="slide2">
+                <a href="#">
+                    <img src="images/banner/banner2.jpg" alt="NCT DREAM 겨울 스페셜 미니앨범 Candy 발매기념 특전 증정 이벤트"
+                        class="desktop">
+                    <img src="images/banner/banner2_t.jpg" alt="NCT DREAM 겨울 스페셜 미니앨범 Candy 발매기념 특전 증정 이벤트"
+                        class="tablet">
+                    <img src="images/banner/banner2_p.jpg" alt="NCT DREAM 겨울 스페셜 미니앨범 Candy 발매기념 특전 증정 이벤트"
+                        class="mobile">
+                </a>
+            </div>
+            <div class="slide3">
+                <a href="#">
+                    <img src="images/banner/banner3.jpg" alt="나의 아저씨 OST 발매 5주년 기념반 사전 예약 진행중" class="desktop">
+                    <img src="images/banner/banner3_t.jpg" alt="나의 아저씨 OST 발매 5주년 기념반 사전 예약 진행중" class="tablet">
+                    <img src="images/banner/banner3_p.jpg" alt="나의 아저씨 OST 발매 5주년 기념반 사전 예약 진행중" class="mobile">
+                </a>
+            </div>
+            <div class="slide4">
+                <a href="#">
+                    <img src="images/banner/banner4.jpg" alt="New Jeans Ditto" class="desktop">
+                    <img src="images/banner/banner4_t.jpg" alt="New Jeans Ditto" class="tablet">
+                    <img src="images/banner/banner4_p.jpg" alt="New Jeans Ditto" class="mobile">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="new">
+            <div class="title">
+                <h2>NEW RELEASES</h2>
+                <p class="center">새롭게 만나보는 최신 LP</p>
+            </div>
+            <div class="new_wrap">
+                <a href="#" class="box">
+                    <div class="imgbox">
+                        <img src="images/lp/main/desktop/lp1.png" alt="j-hope (제이홉)/strong> Jack In The Box" class="desktop">
+                        <img src="images/lp/main/tablet/lp1.png" alt="j-hope (제이홉)/strong> Jack In The Box" class="tablet">
+                        <img src="images/lp/main/mobile/lp1.png" alt="j-hope (제이홉)/strong> Jack In The Box" class="mobile">
+                    </div>
+                    <div class="info">
+                        <strong>j-hope (제이홉)</strong>
+                        <p>Jack In The Box</p>
+                    </div>
+                </a>
+                <a href="#" class="box">
+                    <div class="imgbox">
+                        <img src="images/lp/main/desktop/lp2.png" alt="태연(Taeyeon) 정규 3집 INVU" class="desktop">
+                        <img src="images/lp/main/tablet/lp2.png" alt="태연(Taeyeon) 정규 3집 INVU" class="tablet">
+                        <img src="images/lp/main/mobile/lp2.png" alt="태연(Taeyeon) 정규 3집 INVU" class="mobile">
+                    </div>
+                    <div class="info">
+                        <strong>태연(Taeyeon)</strong>
+                        <p>정규 3집 INVU</p>
+                    </div>
+                </a>
+                <a href="#" class="box">
+                    <div class="imgbox">
+                        <img src="images/lp/main/desktop/lp3.png" alt="Ed Sheeran (에드 시런) 5집 = (Equals)" class="desktop">
+                        <img src="images/lp/main/tablet/lp3.png" alt="Ed Sheeran (에드 시런) 5집 = (Equals)" class="tablet">
+                        <img src="images/lp/main/mobile/lp3.png" alt="Ed Sheeran (에드 시런) 5집 = (Equals)" class="mobile">
+                    </div>
+                    <div class="info">
+                        <strong>Ed Sheeran (에드 시런)</strong>
+                        <p>5집 = (Equals)</p>
+                    </div>
+                </a>
+                <a href="#" class="box"> 
+                    <div class="imgbox">
+                        <img src="images/lp/main/desktop/lp4.png" alt="John Coltrane (존 콜트레인) Blue Train The Complete Masters" class="desktop"> 
+                        <img src="images/lp/main/tablet/lp4.png" alt="John Coltrane (존 콜트레인) Blue Train The Complete Masters" class="tablet">
+                        <img src="images/lp/main/mobile/lp4.png" alt="John Coltrane (존 콜트레인) Blue Train The Complete Masters" class="mobile">
+                    </div>
+                    <div class="info">
+                        <strong>John Coltrane (존 콜트레인)</strong>
+                        <p>
+                            Blue Train The Complete Masters
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="comming">
+            <div class="title">
+                <h2>COMMING SOON</h2>
+                <p class="center">발매 예정인 LP소식</p>
+            </div>
+            <div class="banner">
+                <div class="baner_container">
+                    <div class="banner1">
+                        <a href="#">
+                            <img src="images/banner/tobe1.jpg" alt="cheshire itzy comming soon" class="desktop">
+                            <img src="images/banner/tobe1_t.jpg" alt="cheshire itzy comming soon" class="tablet">
+                            <img src="images/banner/tobe1_p.jpg" alt="cheshire itzy comming soon" class="mobile">
+                        </a>
+                    </div>
+                    <div class="banner2">
+                        <a href="#">
+                            <img src="images/banner/comming2.jpg" alt="crush rush hour" class="desktop">
+                            <img src="images/banner/comming2_t.jpg" alt="crush rush hour" class="tablet">
+                            <img src="images/banner/comming2_p.jpg" alt="crush rush hour" class="mobile">
+                        </a>
+                    </div>
+                    <div class="banner3">
+                        <a href="#">
+                            <img src="images/banner/comming3.jpg" alt="newjeans omg" class="desktop">
+                            <img src="images/banner/comming3_t.jpg" alt="newjeans omg" class="tablet">
+                            <img src="images/banner/comming3_p.jpg" alt="newjeans omg" class="mobile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category mobilehide" >
+            <div class="title">
+                <h2>ENJOY VINYL</h2>
+                <p class="center">여러가지 카테고리로 즐길 수 있는 VINYL</p>
+            </div>
+            <div class="category_wrap">
+                <div class="c_left">
+                    <div class="l_top">
+                        <a href="#">
+                            <img src="images/lp/main/desktop/bg1.jpg" alt="국내LP" class="desktop">
+                            <img src="images/lp/main/tablet/bg1.jpg" alt="국내LP" class="tablet">
+                        </a>
+                    </div>
+                    <div class="l_bottom">
+                        <div class="b_left">
+                            <div class="t_title">
+                                <strong>국내LP</strong>
+                                <p>
+                                    국내의 K-POP, 발라드, R&B등 유명가수들의 음악들과<br>
+                                    영화, 드라마의 OST를 편하게 들어보세요.
+                                </p>
+                            </div>
+                            <a href="#">
+                                <img src="images/lp/main/desktop/bg2.jpg" alt="기타LP" class="desktop">
+                                <img src="images/lp/main/tablet/bg2.jpg" alt="기타LP" class="tablet">
+                            </a>
+                            <div class="bl_title">
+                                <strong>기타LP</strong>
+                                <p>
+                                    클래식, 재즈, 국악 등 취향에 맞는 LP를 만나보세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="b_right">
+                            <a href="#">
+                                <img src="images/lp/main/desktop/bg3.jpg" alt="예약LP" class="desktop">
+                                <img src="images/lp/main/tablet/bg3.jpg" alt="예약LP" class="tablet">
+                            </a>
+                            <div class="br_title">
+                                <strong>예약LP</strong>
+                                <p>곧 출시하는 LP를을 누구보다 빠르게 받아 보세요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c_right">
+                    <a href="#">
+                        <img src="images/lp/main/desktop/bg4.jpg" alt="해외LP" class="desktop"> 
+                        <img src="images/lp/main/tablet/bg4.jpg" alt="해외LP" class="tablet">
+                    </a>
+                    <div class="r_title">
+                        <strong>해외LP</strong>
+                        <p>
+                            해외의 POP 음악과 여러 문화의 음악들을<br>
+                            바이닐로 즐길 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m_category mobile">
+            <div class="wrap">
+                <div class="title">
+                    <h2>ENJOY VINYL</h2>
+                    <p class="center">여러가지 카테고리로 즐길 수 있는 VINYL</p>
+                </div>
+                <div>
+                    <a href="sub/kpop.html">
+                        <img src="images/lp/main/mobile/bg1.jpg " alt="국내LP">
+                        <div class="c_title">
+                            <strong>국내LP</strong>
+                            <p>
+                                국내의 K-POP, 발라드, R&B등 유명가수들의 음악들과<br>
+                                영화,드라마의 OST를 편하게 들어보세요.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="sub/pop.html">
+                        <img src="images/lp/main/mobile/bg2.jpg" alt="해외LP">
+                        <div class="c_title">
+                            <strong>해외LP</strong>
+                            <p>
+                                해외의 POP 음악과 여러 문화의 음악들을<br>
+                                바이닐로 즐길 수 있습니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="sub/classic.html">
+                        <img src="images/lp/main/mobile/bg3.jpg" alt="기타LP">
+                        <div class="c_title">
+                            <strong>기타LP</strong>
+                            <p>클래식, 재즈, 국악 등 취향에 맞는 LP를 만나보세요.</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="sub/reservelist.html">
+                        <img src="images/lp/main/mobile/bg4.jpg" alt="예약LP">
+                        <div class="c_title">
+                            <strong>예약LP</strong>
+                            <p>곧 출시하는 LP들을 누구보다 빠르게 받아 보세요.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="event mobilehide">
+            <div class="event_wrap">
+                <h2>VINYL EVENT</h2>
+                <p>
+                    바이닐 테이블에서 소중한 소리들을 들으셨나요?<br>
+                    다양한 이벤트를 즐기며 좋은 혜택을 받아보세요
+                </p>
+                <a href="sub/event.html">자세히 보기</a>
+            </div>
+        </div>
+        <div class="md">
+            <div class="list">
+                <div class="item">
+                    <img src="images/lp/main/desktop/blackskirt_baby2.jpg" alt="TEAM BABY" class="desktop">
+                    <img src="images/lp/main/tablet/blackskirt_baby2.jpg" alt="TEAM BABY" class="tablet">
+                    <img src="images/lp/main/mobile/blackskirt_baby.jpg" alt="TEAM BABY" class="mobile">
+                    <strong>검정치마</strong>
+                    <p>3집 Part.1 [TEAM BABY]</p>
+                </div>
+                <div class="item top">
+                    <img src="images/lp/main/desktop/crush_from2.jpg" alt="CRUSH FROM MIDNIGHT TO SUNRISE"
+                        class="desktop">
+                    <img src="images/lp/main/tablet/crush_from2.jpg" alt="CRUSH FROM MIDNIGHT TO SUNRISE" class="tablet">
+                    <img src="images/lp/main/mobile/crush_from.jpg" alt="CRUSH FROM MIDNIGHT TO SUNRISE" class="mobile">
+                    <strong>크러쉬 (CRUSH)</strong>
+                    <p>2집 [FROM MIDNIGHT TO SUNRISE]</p>
+                </div>
+                <div class="item">
+                    <img src="images/lp/main/desktop/hahyunsang_mypoorlonelyheart2.jpg" alt="My Poor Lonely Heart"
+                        class="desktop">
+                    <img src="images/lp/main/tablet/hahyunsang_mypoorlonelyheart2.jpg" alt="My Poor Lonely Heart"
+                        class="tablet">
+                    <img src="images/lp/main/mobile/hahyunsang_mypoorlonelyheart.jpg" alt="My Poor Lonely Heart"
+                        class="mobile">
+                    <strong>하현상</strong>
+                    <p>[My Poor Lonely Heart] (Remastered)</p>
+                </div>
+                <div class="item top">
+                    <img src="images/lp/main/desktop/paulkim_pkalbum2.jpg" alt="pkalbum" class="desktop">
+                    <img src="images/lp/main/tablet/paulkim_pkalbum2.jpg" alt="pkalbum" class="tablet">
+                    <img src="images/lp/main/mobile/paulkim_pkalbum.jpg" alt="pkalbum" class="mobile">
+                    <strong>폴킴 (Paul Kim)</strong>
+                    <p>[pkalbum] </p>
+                </div>
+            </div>
+            <div class="title">
+                <h2 class="pick">MD PICK</h2>
+                <p class="right">MD들이 직접 들어보고 추천하는 이달의 LP!</p>
+            </div>
+        </div>
+        <div class="event mobile">
+            <div class="event_wrap">
+                <h2>VINYL EVENT</h2>
+                <p>
+                    바이닐 테이블에서 소중한 소리들을 들으셨나요?<br>
+                    다양한 이벤트를 즐기며 좋은 혜택을 받아보세요
+                </p>
+                <a href="sub/event.html">자세히 보기</a>
+            </div>
+        </div>
+    </section>  
+    <footer id="footer">
+        <div class="footer_top">
+            <div class="top_wrap">
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">이메일 무단수집거부 </a></li>
+                        <li><a href="#">이용안내</a></li>
+                    </ul>
+                </div>
+                <div class="footer_sns">
+                    <ul>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_mid">
+            <div class="mid_wrap">
+                <div class="cs">
+                    <strong>고객센터</strong>
+                    <span>월 - 금 09:00 ~ 18:00</span>
+                    <span>휴무 : 주말, 공휴일</span>
+                </div>
+                <div class="store">
+                    <strong>매장</strong>
+                    <span>경기도 안산시 상록구 본오1로 111-11</span>
+                    <span>월 - 금 09:00 ~ 20:00 </span>
+                    <span>토 - 일 10:00 ~ 18:00 </span>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="left">
+                <address>
+                    <p>
+                        <span><strong>상호명</strong> : VINYL TABLE</span>
+                        <span><strong>대표</strong> : 김다빈</span>
+                        <span><strong>대표번호</strong> : 070-1111-1111</span>
+                        <span><strong>고객센터</strong> : 070-2222-2222</span>
+                    </p>
+                    <p>
+                        <span><strong>주소</strong> : 경기도 안산시 상록구 본오1로 111-11</span>
+                        <span><strong>팩스번호</strong> : 070-3333-3333</span>
+                        <span><strong>사업자등록번호</strong> : 123-45-67890</span>
+                        <span><strong>개인정보보호책임자</strong>: 홍길동</span>
+                    </p>
+                </address>
+                <p class="copy">COPYRIGHT Ⓒ 2022 ABCDEFGHIJK. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="right">
+                <a href="#" class="brand">
+                    <img src="images/icon/desktop/brand.svg" alt="한국저작권보호원" class="desktop">
+                    <img src="images/icon/tablet/brand.svg" alt="한국저작권보호원" class="tablet">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <footer id="m_footer" class="mobile">
+        <div class="top">
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">이메일 무단수집거부</a></li>
+                <li><a href="#">이용안내</a></li>   
+            </ul>
+        </div>
+        <div class="bottom">
+            <address>
+                    <p>
+                        <span><strong>상호명</strong> : VINYL TABLE</span>
+                        <span><strong>대표</strong> : 김다빈</span>
+                        <span><strong>대표번호</strong> : 070-1111-1111</span>
+                    </p>
+                    <p>
+                        <span><strong>주소</strong> : 경기도 안산시 상록구 본오1로 111-11</span>
+                        <span><strong>팩스번호</strong> : 070-3333-3333</span>
+                    </p>
+                    <p>
+                        <span><strong>사업자등록번호</strong> : 123-45-67890</span>
+                        <span><strong>개인정보보호책임자</strong>: 홍길동</span>
+                    </p>
+            </address>
+            <p class="copy">COPYRIGHT Ⓒ 2022 ABCDEFGHIJK. ALL RIGHTS RESERVED.</p>
+            <div class="img">
+                <a href="#">
+                    <img src="images/icon/mobile/brand.svg" alt="한국저작권보호원">
+                </a>
+                <ul class="sns">
+                    <li class="facebook"><a href="#">facebook</a></li>
+                    <li class="insta"><a href="#">instagram</a></li>
+                    <li class="twitter"><a href="#">twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script/index.js"></script>
+</html>
